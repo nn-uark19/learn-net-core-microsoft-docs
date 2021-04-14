@@ -1,6 +1,6 @@
 # NN note
 
-|| [**How to run**](#how-to-run) - [**TodoApi**](#TodoApi)  ||
+|| [**How to run**](#how-to-run) - [**TodoApi**](#TodoApi) - [**MvcMovie**](#MvcMovie) ||
 
 ## How to run
 
@@ -32,3 +32,11 @@ services.AddDbContext<TodoContext>(opt => opt.UseInMemoryDatabase("TodoList"));
     * https://localhost:{PORT}/HelloWorld/Welcome/3?name=Rick
     * http://localhost:21061/HelloWorld/Welcome?name=Rick&numtimes=4
 * 
+
+## Other tutorials 
+* These tutorials seem useful, but doesn't seem to be priority as of now
+* ASP.NET Core MVC with EF Core - tutorial series
+    * Docs > .NET > ASP.NET Core > Tutorials > Data access > EF Core with MVC > Overview
+    * https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc
+* Microsoft Learn modules. the URL can be found [on the left hand navigation] under Tutorials > Micorosoft Learns modules
+    * https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc
