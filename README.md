@@ -1,22 +1,19 @@
 # NN note
 
-|| [**How to run**](#how-to-run) - [**Note**](#note)  ||
+|| [**How to run**](#how-to-run) - [**TodoApi**](#TodoApi) - [**MvcMovie**](#MvcMovie) ||
 
 ## How to run
 
 1. Clone this repository
-2. cd folder
-3. Build database
-```console
-> dotnet ef database update
-```
+2. Run from Visual Studio (Choose startup project)
+   
+## TodoApi
+* Tutorial: Create a web API with ASP.NET Core 
+* Docs > .NET > ASP.NET Core > Tutorials > Web API apps > Create a web API
+* https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api
 
-4. Run from Visual Studio or cmd line
-```console
-> dotnet watch
-```
-5. Can be access at http://localhost:5001/api/values (depends on values in launchSettings.json)
-    
-    ## Note
-    1. Starting code, https://github.com/psauthor/CoreApiFundamentals
-    2. Reference code, https://github.com/rnietoe/CoreCodeCamp
+## MvcMovie
+* Get started with ASP.NET Core MVC
+* Docs > .NET > ASP.NET Core > Tutorials > Web apps > MVC Get > started
+* https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc
+
